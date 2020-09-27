@@ -1,6 +1,6 @@
 import React from 'react';
 
-import  Button  from '../components/Button';
+import Button from '../components/Button';
 
 export default {
   title: 'Components/Button',
@@ -12,12 +12,11 @@ const Template = (args) => <Button {...args} />;
 export const Primary = Template.bind({});
 Primary.args = {
   title: 'Button primary',
-  type: 'primary'
+  type: 'primary',
 };
 
 export const Secondary = Template.bind({});
 Secondary.args = {
   title: 'Button secondary',
-  type: 'secondary'
-}
-
+  type: 'secondary',
+};

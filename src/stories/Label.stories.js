@@ -1,6 +1,6 @@
 import React from 'react';
 
-import  Label  from '../components/Label';
+import Label from '../components/Label';
 
 export default {
   title: 'Components/Label',
@@ -18,6 +18,5 @@ Regular.args = {
 export const Bold = Template.bind({});
 Bold.args = {
   text: 'Bold Text',
-  type: 'bold'
-}
-
+  type: 'bold',
+};

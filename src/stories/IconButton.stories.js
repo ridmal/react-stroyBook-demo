@@ -1,6 +1,6 @@
 import React from 'react';
 
-import  IconButton from '../components/IconButton';
+import IconButton from '../components/IconButton';
 
 export default {
   title: 'Components/IconButton',
@@ -13,20 +13,19 @@ export const Large = Template.bind({});
 Large.args = {
   iconColor: 'black',
   iconName: 'faAtom',
-  iconSize: 'large'
+  iconSize: 'large',
 };
 
 export const Medium = Template.bind({});
 Medium.args = {
   iconColor: 'black',
   iconName: 'faAtom',
-  iconSize: 'medium'
+  iconSize: 'medium',
 };
 
 export const Small = Template.bind({});
 Small.args = {
   iconColor: 'black',
   iconName: 'faAtom',
-  iconSize: 'small'
+  iconSize: 'small',
 };
-
