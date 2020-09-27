@@ -5,9 +5,6 @@ import  Button  from '../components/Button';
 export default {
   title: 'Components/Button',
   component: Button,
-  argTypes: {
-    title: 'Example Title'
-  },
 };
 
 const Template = (args) => <Button {...args} />;

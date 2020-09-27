@@ -23,12 +23,12 @@ BasicModal.args = {
 
 export const FormModal = Template.bind({});
 FormModal.args = {
-  headerTitle: "Form modal",
+  headerTitle: 'Form modal',
   children: <div>
      <Label text={'First Label'}/>
-    <TextInput type={"text"} placeholderText={"Enter here"}/>
+    <TextInput type={'text'} placeholderText={'Enter here'}/>
     <Label text={'Second Label'}/>
-    <TextInput type={"text"} placeholderText={"Enter here"}/>
+    <TextInput type={'text'} placeholderText={'Enter here'}/>
   </div>,
   onHeaderClose: ()=>alert('Modal close action'),
   onActionClick: ()=> alert('Modal action button click'),

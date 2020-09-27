@@ -10,15 +10,15 @@ import Label from '../Label';
  */
 const Modal = ({ children, headerTitle, onHeaderClose, onActionClick, onCancelClick }) => {
     return (
-        <div className="container">
-            <div className="header">
+        <div className='container'>
+            <div className='header'>
                 <Label text={headerTitle} type={'bold'} color={'#FFFFFF'} />
-                <IconButton iconName={'faTimes'} iconSize={'meduim'} iconColor={'black'} onIconClick={onHeaderClose} />
+                <IconButton iconName={'faTimes'} iconSize={'medium'} iconColor={'black'} onIconClick={onHeaderClose} />
             </div>
-            <div className="content">
+            <div className='content'>
                 {children}
             </div>
-            <div className="footer">
+            <div className='footer'>
                 <Button title={'Cancel'} type={'secondary'} onButtonClick={onCancelClick} />
                 <Button title={'Action'} type={'primary'} onButtonClick={onActionClick} />
             </div>

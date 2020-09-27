@@ -8,7 +8,7 @@ import './iconButton.scss';
 const getIconSize = (size) => {
     switch (size) {
         case 'large': return '3x';
-        case 'meduim': return 'lg';
+        case 'medium': return 'lg';
         case 'small': return 'xs';
         default: return 'lg';
     }
@@ -18,8 +18,8 @@ const getIconSize = (size) => {
  * Icon button component 
  */
 const IconButton = ({ iconName, iconSize, iconColor, onIconClick }) => {
-    return <button className="btnWrapper" onClick={onIconClick}>
-        <FontAwesomeIcon className="icon" icon={Icons[`${iconName}`]} size={getIconSize(iconSize)} color={iconColor} />
+    return <button className='btnWrapper' onClick={onIconClick}>
+        <FontAwesomeIcon className='icon' icon={Icons[`${iconName}`]} size={getIconSize(iconSize)} color={iconColor} />
     </button>
 }
 
