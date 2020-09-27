@@ -1,0 +1,36 @@
+.container {
+    width: 400px;
+    background-color: white;
+    border: 1px solid #D3D3D3;
+    border-radius: 4px;
+    z-index: 100;
+    box-shadow: 0px 10px 10px -9px rgba(73, 73, 73, 0.75);
+ }
+
+$breakpoint-phone: 600px;
+@media screen and (max-width: $breakpoint-phone) {
+    .container {
+        width: 280px;
+    }
+}
+ .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: #20b2aa;
+    border-bottom: 1px solid #D3D3D3; 
+    border-radius: 4px;
+    box-shadow: 0px 7px 10px -9px rgba(73, 73, 73, 0.75);
+}
+.content {
+    padding: 5px 10px;
+    min-height: 100px;
+}
+ .footer {
+     display: flex;
+     justify-content: flex-end;
+     padding: 10px;
+     margin-top: 20px;
+     border-top: 1px solid #D3D3D3; 
+ }

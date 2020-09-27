@@ -1,0 +1,27 @@
+
+%btn {
+    border: none;
+    padding: 10px 15px;
+    margin: 0px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    outline: none;
+    font-size: 12px;
+    border-radius: 10px;
+    min-width: 80px;
+  }
+
+.btn-primary {
+    @extend %btn;
+    background-color: #14716c;
+    color: white
+} 
+
+.btn-secondary {
+    @extend %btn;
+    background-color: #ffffff;
+    border: 1px solid #14716c;
+    color: #14716c
+}
+
